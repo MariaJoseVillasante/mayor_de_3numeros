@@ -1,6 +1,6 @@
-numero1 = ARGV[0];
-numero2 = ARGV[1];
-numero3 = ARGV[2];
+numero1 = ARGV[0].to_i;
+numero2 = ARGV[1].to_i;
+numero3 = ARGV[2].to_i;
 
 if numero1 >= numero2 
     if numero1 >= numero3
